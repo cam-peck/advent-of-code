@@ -1,0 +1,44 @@
+{
+    "env": {
+        "node": true,
+        "mocha": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        // General Linting //
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+
+         // Mocha Linting //
+         "mocha/no-identical-title": "error",
+         "mocha/no-empty-description": "error",
+         "mocha/no-global-tests": "error",
+         "mocha/no-setup-in-describe": "error",
+         "mocha/prefer-arrow-callback": "warn"
+    },
+    "plugins": [
+        "mocha",
+        "chai-friendly"
+    ]
+}
