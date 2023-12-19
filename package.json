@@ -1,0 +1,19 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "Advent of code 2023 solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cameron Peck",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "eslint": "^8.14.0",
+    "prettier": "^2.8.8",
+    "mocha": "^10.2.0",
+    "eslint-plugin-mocha": "^10.1.0",
+    "eslint-plugin-chai-friendly": "^0.7.2"
+  }
+}
